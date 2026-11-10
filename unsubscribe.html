@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stop emails · Site Kept</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap top-in"><a class="brand" href="./"><img src="favicon.svg" alt="" width="24" height="24">Site Kept</a></div></header>
+<main class="wrap doc narrow">
+<h1>Stop emails from me</h1>
+<p>Enter the address I emailed and you won't hear from me again. It takes effect at once.</p>
+<form id="unsub-form">
+  <label>Email address<input name="email" type="email" required autocomplete="email"></label>
+  <button class="btn" type="submit">Unsubscribe</button>
+</form>
+<p class="form-note" id="unsub-note" role="status"></p>
+<p class="small">Prefer email? Write "stop" to <a href="mailto:hello@sitekept.co.uk?subject=stop">hello@sitekept.co.uk</a>.</p>
+</main>
+<script>window.CFG={"EMAIL": "hello@sitekept.co.uk", "CONTACT_ENDPOINT": "https://u.sitekept.co.uk/contact", "UNSUBSCRIBE_ENDPOINT": "https://u.sitekept.co.uk/u/"};</script>
+<script src="app.js" defer></script>
+</body>
+</html>
